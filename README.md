@@ -8,10 +8,10 @@ przez thermo - po jednej wartości (px, py itd. itp.) na kolumnę.
 * Założono, że katalog ~/bin jest w zmiennej systemowej PATH - czyli wszystko co tam umieścimy będzie możliwe do odpalenia z dowolnego katalogu
 * python 3
 * gnuplot
-* pizza <- należy ściągnąć ze strony lammps i w katalogu ~/bin utworzyć dowiazanie symbolicznez z prawami uruchomieniowymi do pliku pizza.py o nazwie py.
+* pizza <- należy ściągnąć ze strony lammps i w katalogu ~/bin utworzyć dowiazanie symbolicznez z prawami uruchomieniowymi do pliku pizza.py o nazwie pizza
 
 ### Instalacja:
-* należy umieścić w katalogu ~/bin link symboliczny do pliku rysujPakujWykresy.sh
+* należy umieścić w katalogu ~/bin link symboliczny do pliku rysujPakujWykresy.sh (plik ten powinien mieć prawa uruchomieniowe)
 * plik wykresyChudeLammps.py należy umieścić w folderze scripts w pizza py
 
 
