@@ -1,4 +1,4 @@
-## UWAGA! skrytpty dostarczane w formie 'takiej w jakiej są'. Autor nie ponosi odpowiedzialności za ich użycie w jakimkolwiek celu
+## UWAGA! Skrypty dostarczane w formie 'takiej w jakiej są'. Autor nie ponosi odpowiedzialności za ich użycie w jakimkolwiek celu
 
 ### Skrypt do rysowania wykresów na podstawie pliku log.lammps
 Dzieli plik log lammps na pliki kolumnowe zawierające informacje wyrzucane
