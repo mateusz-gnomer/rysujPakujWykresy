@@ -9,10 +9,11 @@ przez thermo - po jednej wartości (px, py itd. itp.) na kolumnę.
 * python 3
 * gnuplot
 * pizza <- należy ściągnąć ze strony lammps i w katalogu ~/bin utworzyć dowiazanie symbolicznez z prawami uruchomieniowymi do pliku pizza.py o nazwie py.
-* plik wykresyChudeLammps.py należy umieścić w folderze scripts pizza py
 
 ### Instalacja:
-należy umieścić w katalogu ~/bin link symboliczny do pliku rysujPakujWykresy.sh
+* należy umieścić w katalogu ~/bin link symboliczny do pliku rysujPakujWykresy.sh
+* plik wykresyChudeLammps.py należy umieścić w folderze scripts w pizza py
+
 
 ### Użycie:
 w katalogu, w którym znajduje się plik log.lammps należy uruchomić skrypt. Polecenie uruchomieniowe skryptu to nazwa dowiązania symbolicznego utworzonego podczas instalacji.
