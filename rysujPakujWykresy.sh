@@ -23,7 +23,7 @@ cp log.lammps log.lammps.oryginal
 
 rm -r -f wykresy
 mkdir wykresy
-pizza -f $DIR/wykresyChudeLammps.py
+pizza -f wykresyChudeLammps.py
 rm ./wykresyChudeLammps
 cp log.lammps* ./wykresy/
 cp system_in* ./wykresy/
