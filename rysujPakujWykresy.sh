@@ -1,5 +1,19 @@
 #!/bin/sh
 
+SOURCE="${BASH_SOURCE[0]}"
+
+while [ -h "$SOURCE" ]; do
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+DIR="$(cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+echo "$DIR"
+echo $DIR/wykresyChudeLammps.py
+echo `file $DIR/wykresyChudeLammps.py`
+
+
 #naprawia problemy jesli jest fix shake, ktory wyrzuca swoje rzeczy do loga
 
 #rysuje wykresy w formie jpg i pakuje pliki tekstowe dla oszczednosci miejsca
@@ -9,8 +23,7 @@ cp log.lammps log.lammps.oryginal
 
 rm -r -f wykresy
 mkdir wykresy
-cp ~/testy_linux/python/wykresyChudeLammps ./
-pizza -f wykresyChudeLammps
+pizza -f $DIR/wykresyChudeLammps.py
 rm ./wykresyChudeLammps
 cp log.lammps* ./wykresy/
 cp system_in* ./wykresy/
